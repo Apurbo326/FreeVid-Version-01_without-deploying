@@ -40,12 +40,11 @@ A complete, production-ready video streaming platform using **FREE Pexels API**.
 ### 2. Clone & Setup
 ```bash
 # Clone the project
-git clone [https://github.com/yourusername/freestream.git](https://github.com/Apurbo326/FreeVid-Version-01_without-deploying.git)
-cd freestream
+git clone https://github.com/Apurbo326/FreeVid-Version-01_without-deploying.git
+cd FreeVid-Version-01_without-deploying
 
 # Install dependencies
 npm install
 
-# Configure
-cp .env.example .env
-# Edit .env and add your Pexels API key
+# Run
+npm start
