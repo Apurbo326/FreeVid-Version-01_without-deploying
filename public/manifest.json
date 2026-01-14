@@ -1,0 +1,37 @@
+{
+  "name": "FreeStream",
+  "short_name": "FreeStream",
+  "description": "Free Video Streaming Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#3a86ff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&w=192",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&w=512",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "categories": ["entertainment", "video", "education"],
+  "shortcuts": [
+    {
+      "name": "Trending Videos",
+      "short_name": "Trending",
+      "description": "Watch trending videos",
+      "url": "/#trending"
+    },
+    {
+      "name": "Search Videos",
+      "short_name": "Search",
+      "description": "Search for videos",
+      "url": "/#search"
+    }
+  ]
+}

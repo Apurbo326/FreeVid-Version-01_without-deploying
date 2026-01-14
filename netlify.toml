@@ -1,0 +1,17 @@
+# netlify.toml
+[build]
+  publish = "public"
+  command = "echo 'No build required for static site'"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
